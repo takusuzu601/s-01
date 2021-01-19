@@ -26,7 +26,7 @@ class CompanyFactory extends Factory
             'admin_id' =>Admin::factory(),
             'category_id' => $this->faker->numberBetween(1, 10),
             'company_name' => $this->faker->company,
-            'company_pref'   => $this->faker->city,
+            'company_pref'   => $this->faker->prefecture,
             'company_description'=> $this->faker->realText(100),
             'company_image'   => 'https://source.unsplash.com/random',
             'company_tel'   => $this->faker->phoneNumber,

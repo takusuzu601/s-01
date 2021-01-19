@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/test','App\Http\Controllers\TestController@index');
+
  Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
@@ -39,3 +41,5 @@ Route::namespace('App\Http\Controllers\Oner')->prefix('oner')->name('oner')->gro
 // Route::prefix('oner')->namespace('Oner')->name('admin')->group(function(){
 //     Auth::routes();
 // });
+
+// /////////////////////////////////////////////////////
