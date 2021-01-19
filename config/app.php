@@ -14,6 +14,8 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
+    'admin_name'=>env('APP_NAMEADMIN','Admin'),
+    'oner_name'=>env('APP_NAMEONER','Oner'),
 
     /*
     |--------------------------------------------------------------------------
