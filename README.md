@@ -1,4 +1,4 @@
-Laravel8 MultiAuth Template<br>
+#Laravel8 MultiAuth Template<br>
 チュートリアルを基に作成<br>
 参考URL:https://reffect.co.jp/laravel/laravel-multi-authentication-understand#i-13
 <br>
@@ -6,6 +6,7 @@ Laravel8 MultiAuth Template<br>
 
 **********************************************************************************
 
-[Branchの詳細] : main(メイン)　　
-　　　　　　　　　factory(FactoryとSeederファイルの雛形レポジトリ　これファイルを基にテストデータを挿入できる)
+##[Branchの詳細] 
+main(メイン)  　　
+factory(FactoryとSeederファイルの雛形レポジトリ　これファイルを基にテストデータを挿入できる)
 
