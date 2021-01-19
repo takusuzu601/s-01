@@ -13,6 +13,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        //コメントアウトを一つずつartisan db:seedすると
+        //リレーションidを採番しやすいし多く一つのテーブルにDATAを入れることができる
+
+         // \App\Models\User::factory(1000)->create();
+         //\App\Models\Admin::factory(1000)->create();
+       // \App\Models\Company::factory(1000)->create();
+        // \App\Models\Cast::factory(20000)->create();
+         \App\Models\Tag::factory(7)->create();
     }
 }
