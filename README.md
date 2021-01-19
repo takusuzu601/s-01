@@ -6,6 +6,6 @@ Laravel8 MultiAuth Template<br>
 
 **********************************************************************************
 
-Branchの詳細 : main(メイン)
-　　　　　　　　factory(FactoryとSeederファイルの雛形レポジトリ　これファイルを基にテストデータを挿入できる)
+[Branchの詳細] : main(メイン)　　
+　　　　　　　　　factory(FactoryとSeederファイルの雛形レポジトリ　これファイルを基にテストデータを挿入できる)
 
